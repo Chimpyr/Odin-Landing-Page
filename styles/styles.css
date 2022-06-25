@@ -1,0 +1,27 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
+
+.card img {
+    height: 100px;
+    width: auto;
+}
+
+body {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
