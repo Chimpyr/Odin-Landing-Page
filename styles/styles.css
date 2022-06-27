@@ -25,7 +25,7 @@ a {
 }
 
 img {
-    height: 300px;
+    height: 500px;
     width: auto;
 }
 
@@ -43,7 +43,7 @@ body {
 
 header, .left-links {
     color: #e5e7eb;
-    padding: 0px var(--CoolMargin);
+    
     display: flex;
     gap: 24px;
     justify-content: space-between;
@@ -53,10 +53,12 @@ header, .left-links {
 }
 
 header {
+    padding: 0px var(--CoolMargin);
     color: #f9faf8;
     font-size: 24px;
     background-color: #1f2937;
     font-weight: bold;
+    flex-basis: 1%;
 }
 
 .left-links {
@@ -81,6 +83,8 @@ header {
     color: #e5e7eb;
     font-size: 48px;
     font-weight: bold;
+    text-align: left;
+    padding-bottom: 20px;
 }
 
 .awesome button {
@@ -88,7 +92,7 @@ header {
     border-radius: 8px;
     color: white;
     background: #3882f6;
-    margin-top: 8px;
+    margin-top: 36px;
     padding: 8px 24px;
 }
 
@@ -98,7 +102,9 @@ header {
     justify-content: center;
     flex-direction: column;
     flex: 1;
-    margin: 36px var(--CoolMargin);
+    /* margin: 36px var(--CoolMargin); */
+    padding: 48px var(--CoolMargin);
+    
 }
 
 .image-cards {
@@ -107,13 +113,15 @@ header {
     flex: 1;
     gap: 8px;
     margin-bottom: 48px;
+    flex-wrap: wrap;
 }
 
 .card {
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    width: 300px;
+    padding-bottom: 24px;
 }
 
 
@@ -123,7 +131,7 @@ header {
     object-fit: cover;
     width: 150px;
     height: 150px;
-    
+   margin-bottom: 8px; 
 }
 
 .card p {
@@ -132,9 +140,9 @@ header {
     
 }
 
-h2 {
+content h2 {
     text-align: center;
-    padding-bottom: 24px;
+    padding-bottom: 48px;
     color: #1f2937;
 }
    
