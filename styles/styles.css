@@ -1,5 +1,5 @@
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Genshin','Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -193,11 +193,13 @@ h4 {
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
     text-align: center;
-    height: 80px;
+    height: 90px;
     font-weight: 200;
 }
+
