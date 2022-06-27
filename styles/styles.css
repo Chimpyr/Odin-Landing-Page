@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: Genshin;
-    src: url("/assets/zh-cn.ttf");
+    src: url("../assets/zh-cn.ttf");
 }
 
 li {
@@ -63,8 +63,11 @@ header {
 
 .left-links {
     font-size: 18px;
-
     font-weight: 400;
+}
+
+.left-links a:hover {
+    color: #89CFF0;
 }
 
 .awesome {
